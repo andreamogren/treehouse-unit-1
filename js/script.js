@@ -106,6 +106,10 @@ function automaticQuote() {
   (Used these sources two sources for the setInterval method: https://www.plus2net.com/javascript_tutorial/setinterval.php and https://www.w3schools.com/jsref/met_win_setinterval.asp)*/
   setInterval('printQuote()', 20000);
 }
+
+//Calling the printQuote function to display a random quote immediately after the page loads 
+printQuote(); 
+
 //Calling the automaticQuote function 
 automaticQuote();
 
